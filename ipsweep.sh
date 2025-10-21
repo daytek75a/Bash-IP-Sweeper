@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#Here we use if statement to check if input equals nothing. If it does then print the two error messages. Else move on.
+#Here we use if statement to check if input equals nothing. ($1 is argument 1 the input after ./ipsweep.sh) If it does then print the two error messages. Else move on.
 
 if [ "$1" == "" ]
 then
